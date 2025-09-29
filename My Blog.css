@@ -1,6 +1,6 @@
 body {
   background-color: #ecf0f1; /* CSS background */
-  font-family: Georgia, serif;
+  font-family: serif;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-  font-size: 28px; /* CSS unit + font-size */
+  font-size: 34px; /* CSS unit + font-size */
 }
 
 article {
@@ -26,11 +26,11 @@ article {
 
 h2 {
   color: #29e0b9; /* CSS color */
-  font-size: 22px;
+  font-size: 27px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.6;
 }
 
@@ -40,4 +40,12 @@ a {
 }
 a:hover{
     text-decoration: underline;
+}
+
+footer p{
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  margin-top: 70px;
+  color: #fff;
 }
