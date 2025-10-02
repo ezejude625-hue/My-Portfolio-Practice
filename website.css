@@ -8,7 +8,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
-    background-color: #eee;
+    background-color: #eeeeee;
     color: #333;
     scroll-behavior: smooth;
 }
@@ -21,11 +21,12 @@ body{
 
 /* header */
 .header{
-    background: #111;
+    background: rgb(34, 33, 33);
     padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
+    backdrop-filter: blur(10px);
 }
 .one{
     color: #fff;
@@ -82,9 +83,21 @@ body{
 .img{
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     margin-top: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* border-radius: 50%; */
     /* filter: drop-shadow(1px 1px 30px rgba(165, 42, 42, 0.589)); */
+}
+
+.about-section{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 /* sections */
@@ -155,7 +168,7 @@ p{
 }
 .form-group{
     position: relative;
-    margin: 17px 0;
+    margin: 29px 0;
 }
 .form-group input{
     padding: 10px 10px;
@@ -218,7 +231,6 @@ p{
     border-radius: 10px;
     font-size: 16px;
     padding: 6px 20px;
-    border: none;
     margin-right: 10px;
     transition: 0.3s ease;
 }
@@ -226,7 +238,6 @@ p{
     border-radius: 10px;
     font-size: 16px;
     padding: 6px 20px;
-    border: none;
     margin-left: 50px;
     transition: 0.3s ease;
 }
@@ -261,6 +272,14 @@ p{
         width: 300px;
         height: 300px;
     }
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
     .von{
         flex-direction: column;
         text-align: center;
@@ -290,6 +309,14 @@ p{
     .img{
         width: 250px;
         height: 250px;
+    }
+     .about-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
     }
     .von{
         flex-direction: column;
