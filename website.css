@@ -8,7 +8,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #eee;
     color: #333;
     scroll-behavior: smooth;
 }
@@ -161,6 +161,7 @@ p{
     padding: 10px 10px;
     font-size: 18px;
     border-radius: 5px;
+    width: 100%;
     border: #918f8f solid 2px;
     background-color: transparent;
     color: black;
@@ -193,6 +194,7 @@ p{
     padding: 8px 10px;
     font-size: 18px;
     border-radius: 5px;
+    width: 100%;
     border: #918f8f solid 2px;
     background-color: transparent;
     color: black;
@@ -215,7 +217,7 @@ p{
 #submit{
     border-radius: 10px;
     font-size: 16px;
-    padding: 6px 12px;
+    padding: 6px 20px;
     border: none;
     margin-right: 10px;
     transition: 0.3s ease;
@@ -223,7 +225,7 @@ p{
 #reset{
     border-radius: 10px;
     font-size: 16px;
-    padding: 6px 12px;
+    padding: 6px 20px;
     border: none;
     margin-left: 50px;
     transition: 0.3s ease;
@@ -232,10 +234,12 @@ p{
 #submit:hover{
     color: #1aaa1ad2;
     transform: scale(1.1);
+    box-shadow: 0 0 10px #1aaa;
 }
 #reset:hover{
     color: #1aaa1ad2;
     transform: scale(1.1);
+    box-shadow: 0 0 10px #1aaa;
 }
 
 /* footer section */
