@@ -1,0 +1,67 @@
+/*Restaurant Menu Styling*/
+
+/* Page background & text */
+body {
+    background-color: #fff8f0;   /* CSS background */
+    font-family: Arial, sans-serif;
+    font-size: 16px;             /* CSS unit + font-size */
+    color: #333;                 /* CSS colour */
+    margin: 20px;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    color: #d35400;   /* Colour */
+    font-size: 2.5em; /* Unit */
+    margin-bottom: 10px;
+}
+
+/* Sub-heading */
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Section titles */
+h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;  /* Remove bullets */
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 8px auto;
+    width: 50%;
+    font-size: 1.1em;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+/* Hover effect */
+li:hover {
+    background-color: #f6ddcc;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+footer p{
+    color: white;
+}
